@@ -36,18 +36,15 @@ $ npm run start:client
 <img src="https://raw.githubusercontent.com/ihahoo/doc/master/nestjs-grpc-cqrs-graphql-sample/1611862612628.jpg" width="50%">
 
 更新学校名称：PUT http://localhost:3000/schools/1
-````
-{
-    "name": "New name"
-}
-````
 
 <img src="https://raw.githubusercontent.com/ihahoo/doc/master/nestjs-grpc-cqrs-graphql-sample/1611862677864.jpg" width="50%">
 
 
 ## GraphQL方式
 查询学校：
+
 <img src="https://raw.githubusercontent.com/ihahoo/doc/master/nestjs-grpc-cqrs-graphql-sample/1611860817787.jpg" width="50%">
 
 更新学校名称：
+
 <img src="https://raw.githubusercontent.com/ihahoo/doc/master/nestjs-grpc-cqrs-graphql-sample/1611862506195.jpg" width="50%">
