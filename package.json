@@ -4,15 +4,20 @@
   "license": "MIT",
   "scripts": {
     "start:server": "ts-node server/main.ts",
-    "start:client": "ts-node client/main.ts"
+    "start:client": "ts-node client/main.ts",
+    "generateGraphqlSchema": "ts-node client/generate-typings"
   },
   "dependencies": {
     "@grpc/proto-loader": "^0.5.6",
     "@nestjs/common": "^7.5.1",
     "@nestjs/core": "^7.5.1",
     "@nestjs/cqrs": "^7.0.1",
+    "@nestjs/graphql": "^7.9.8",
     "@nestjs/microservices": "^7.6.7",
     "@nestjs/platform-express": "^7.5.1",
+    "apollo-server-express": "^2.19.2",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.2",
     "grpc": "^1.24.4",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
