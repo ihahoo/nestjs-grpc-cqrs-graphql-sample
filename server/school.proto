@@ -1,0 +1,22 @@
+syntax = "proto3";
+package school;
+
+message School {
+    int32 id = 1;
+    string name = 2;
+    string address = 3;
+}
+
+message GetSchoolRequest {
+  int32 id = 1;
+}
+
+message SetSchoolNameRequest {
+  int32 id = 1;
+  string name = 2;
+}
+
+service SchoolService {
+  rpc Get (GetSchoolRequest) returns (School);
+  rpc SetName (SetSchoolNameRequest) returns (School);
+}
